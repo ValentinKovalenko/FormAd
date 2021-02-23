@@ -11,6 +11,7 @@ const Photos = (props) => {
     const onChange = (imageList, addUpdateIndex) => {
         console.log(imageList, addUpdateIndex);
         setImages(imageList);
+        setPhoto(imageList)
     };
 
     return (
